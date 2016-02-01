@@ -39,7 +39,8 @@ http://stackoverflow.com/a/246128) but honestly I just didn't feel like screwing
 ```
 usage: password -s size_in_chars -r number_of_iterations [-d dictionary_file] [-{E|T|L|R}]
     -s <chars>: the minimum size in chars of the password.  Default: 3
-    -r <reps: The number of words to spit out.  Default: 1
+    -r <reps>: The number of words to spit out.  Default: 1
+    -d <dict_file>: File of words to choose from.  Default: /usr/share/dict/words
     -E: easily touch typeable (default, real words)
     -T: tivo style password - easily typable onscreen (no real words)
     -L: words that you can touchtype with your left hand only (real words)
